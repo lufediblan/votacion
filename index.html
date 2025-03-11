@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Votación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Votación</h1>
+        <form id="voting-form">
+            <div class="option-card">
+                <img src="avatar.png" alt="Opción 1">
+                <p>Salchipapa</p>
+                <label><input type="radio" name="vote" value="opcion1"> Seleccionar</label>
+            </div>
+            <div class="option-card">
+                <img src="avatar.png" alt="Opción 2">
+                <p>Perro caliente</p>
+                <label><input type="radio" name="vote" value="opcion2"> Seleccionar</label>
+            </div>
+            <div class="option-card">
+                <img src="avatar.png" alt="Opción 3">
+                <p>Desgranado</p>
+                <label><input type="radio" name="vote" value="opcion3"> Seleccionar</label>
+            </div>
+            <button type="submit">Enviar Voto</button>
+        </form>
+        <div id="results">
+            <h2>Resultados de la Votación</h2>
+            <p>Resultados</p>
+        </div>
+    </div>
+</body>
+</html>
